@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
 
+var s1 = Student()
+
+var s2 = Student(id: 11, firstname: "yash", lastname: "garg", gender: Gender.MALE ,  birthdate: utils.getDate(Year: 1998, Month: 3, day: 13), coursename: "madt")
+
+
+print(s2.birthdate)
+
+
+//print(utils.getDate(Year: 1998, Month: 3, day: 13))

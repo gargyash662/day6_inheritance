@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D3FDA3A2210294B90058E77C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA3A1210294B90058E77C /* main.swift */; };
+		D3FDA3AC2102953B0058E77C /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA3AB2102953B0058E77C /* person.swift */; };
+		D3FDA3AE21029A7B0058E77C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA3AD21029A7B0058E77C /* Student.swift */; };
+		D3FDA3B02102A5850058E77C /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDA3AF2102A5850058E77C /* utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		D3FDA39E210294B90058E77C /* day6_inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day6_inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FDA3A1210294B90058E77C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D3FDA3AB2102953B0058E77C /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		D3FDA3AD21029A7B0058E77C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		D3FDA3AF2102A5850058E77C /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		D3FDA3A0210294B90058E77C /* day6_inheritance */ = {
 			isa = PBXGroup;
 			children = (
+				D3FDA3A8210294F40058E77C /* Employee */,
 				D3FDA3A1210294B90058E77C /* main.swift */,
 			);
 			path = day6_inheritance;
+			sourceTree = "<group>";
+		};
+		D3FDA3A8210294F40058E77C /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				D3FDA3AB2102953B0058E77C /* person.swift */,
+				D3FDA3AD21029A7B0058E77C /* Student.swift */,
+				D3FDA3AF2102A5850058E77C /* utils.swift */,
+			);
+			path = Employee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FDA3AC2102953B0058E77C /* person.swift in Sources */,
+				D3FDA3AE21029A7B0058E77C /* Student.swift in Sources */,
 				D3FDA3A2210294B90058E77C /* main.swift in Sources */,
+				D3FDA3B02102A5850058E77C /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
